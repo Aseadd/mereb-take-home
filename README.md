@@ -33,8 +33,7 @@ Button to trigger gRPC call
 Display area for server response
 
 ## 📸 Demo
-![Demo video](https://github.com/user-attachments/assets/3d2f1a71-6712-444a-bb79-c161d1333570)
-
+![Demo-mereb](https://github.com/user-attachments/assets/bfcbbe60-6828-44e8-88e2-958aa7d3280e)
 
 ---
 
