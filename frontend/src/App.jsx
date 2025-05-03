@@ -61,7 +61,7 @@ function App() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center max-w-md m-auto p-6 bg-white rounded-lg shadow-md">
+    <div className="max-w-md mx-auto p-6 bg-white rounded-lg shadow-md">
       <h1 className="text-2xl font-bold mb-4 text-center">Ping App</h1>
       <input
         type="text"
@@ -79,10 +79,7 @@ function App() {
         {isLoading ? "Loading..." : "Send Ping"}
       </button>
       {response && (
-        <p className="mt-4 text-center text-gray-700">
-          Response:{" "}
-          <span className="text-green-600 font-semibold">{response}</span>
-        </p>
+        <p className="mt-4 text-center text-gray-700">Response: {response}</p>
       )}
     </div>
   );

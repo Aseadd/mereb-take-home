@@ -10,4 +10,9 @@ export default defineConfig({
       strictRequires: true,
     }),
   ],
+  test: {
+    globals: true,
+    environment: "jsdom",
+    setupFiles: [],
+  },
 });
