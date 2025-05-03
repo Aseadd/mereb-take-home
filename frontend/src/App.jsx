@@ -55,6 +55,7 @@ function App() {
         setResponse("Error: " + err.message);
         return;
       }
+      setInput("");
       setResponse(res.getMessage());
     });
   };
