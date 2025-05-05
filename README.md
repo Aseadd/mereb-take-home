@@ -44,8 +44,8 @@ The application follows a microservices-based architecture with the following co
 
 1. **Frontend**: Built with React and vitest for a responsive and interactive user interface.
 2. **Backend**: Developed using Python, gRPC, pytest
-3. **Containerization**: For communication between frontend and the backend
-4  **Containerization**: Docker Compose for seamless deployment and local development.
+3. **Envoy**: For proxy and communication between the frontend and the backend
+4.  **Containerization**: Docker Compose for seamless deployment and local development.
 
 ---
 
